@@ -38,6 +38,18 @@
           </dict>
         </array>
       </dict>
+      <key>constant-language-loopback</key>
+      <dict>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>constant.language.loopback.eskip</string>
+            <key>match</key>
+            <string>&lt;loopback&gt;</string>
+          </dict>
+        </array>
+      </dict>
       <key>constant-language-match_any</key>
       <dict>
         <key>patterns</key>
@@ -206,6 +218,10 @@
           <dict>
             <key>include</key>
             <string>#constant-language-shunt</string>
+          </dict>
+          <dict>
+            <key>include</key>
+            <string>#constant-language-loopback</string>
           </dict>
           <dict>
             <key>include</key>
