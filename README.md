@@ -9,7 +9,6 @@ Syntax highlighting for eskip language for Sublime Text and TextMate
 
 ## Installation (TextMate)
 
-* Load TextMate and disable or remove default CSS bundle
 * Open up Terminal.app
 * Execute this command:  
   `cd ~/Library/"Application Support"/TextMate/Bundles/`
